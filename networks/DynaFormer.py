@@ -1262,7 +1262,7 @@ class DualPathDecoderLayer(nn.Module):
         else:
             return self.upsample(fused)
 
-class DAEFormer(nn.Module):
+class DynaFormer(nn.Module):
     def __init__(self, num_classes=9, head_count=1, token_mlp_mode="mix_skip"):
         super().__init__()
 
