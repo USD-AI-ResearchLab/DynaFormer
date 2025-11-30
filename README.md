@@ -2,7 +2,7 @@
 
 
 
-![Proposed Model](./images/Dyna.png)
+![Proposed Model](./images/CAIF.png)
 
 ## Updates
 
