@@ -1,4 +1,4 @@
-# [DynaFormer: Dynamic Dual-Attention Transformer For Medical Image Segmentation]
+# DynaFormer: Dynamic Dual-Attention Transformer For Medical Image Segmentation
 
 
 
