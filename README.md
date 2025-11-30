@@ -16,13 +16,6 @@ The script train.py contains all the necessary steps for training the network. A
 To load a network, use the --module argument when running the train script (``--module <directory>.<module_name>.<class_name>``, e.g. ``--module networks.DynaFormer.DynaFormer``)
 
 
-### Model weights
-You can download the learned weights of the DAEFormer in the following table. 
-
- Dataset 
-
-Multi organ segmentation | [Synapse](https://drive.google.com/uc?export=download&id=18I9JHH_i0uuEDg-N6d7bfMdf7Ut6bhBi) 
-
 ### Training and Testing
 
 1) Download the Synapse dataset from [here](https://drive.google.com/uc?export=download&id=18I9JHH_i0uuEDg-N6d7bfMdf7Ut6bhBi).
