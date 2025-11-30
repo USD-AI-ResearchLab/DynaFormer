@@ -26,7 +26,7 @@ To load a network, use the --module argument when running the train script (``--
 
 3) Run the below code to train the DAEFormer on the synapse dataset.
     ```bash
-    python train.py --root_path ./data/Synapse/train_npz --test_path ./data/Synapse/test_vol_h5 --batch_size 20 --eval_interval 20 --max_epochs 400 --module networks.DAEFormer.DAEFormer
+    python train.py --root_path ./data/Synapse/train_npz --test_path ./data/Synapse/test_vol_h5 --batch_size 20 --eval_interval 20 --max_epochs 400 --module networks.DynaFormer.DynaFormer
     ```
     **--root_path**     [Train data path]
 
@@ -36,7 +36,7 @@ To load a network, use the --module argument when running the train script (``--
 
     **--module**        [Module name, including path (can also train your own models)]
     
- 4) Run the below code to test the DAEFormer on the synapse dataset.
+ 4) Run the below code to test the DynaFormer on the synapse dataset.
     ```bash
     python test.py --volume_path ./data/Synapse/ --output_dir './model_out'
     ```
