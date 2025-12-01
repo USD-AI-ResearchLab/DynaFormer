@@ -2,7 +2,7 @@
 
 
 
-![Proposed Model](./images/Dyna3.png)
+![Proposed Model](./images/Dynaformer.png)
 
 ## Updates
 
